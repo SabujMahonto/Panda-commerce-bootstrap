@@ -10,8 +10,8 @@
 </head>
 <body>
   <!-- header start  -->
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header id="home">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="images/logo.png" alt="logo">
@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Watch</a>
+            <a class="nav-link active" aria-current="page" href="#bagpack">Bagpack</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+            <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+            <a class="nav-link active" aria-current="page" href="#subscribe">Subscribe</a>
           </li>
         </ul>
       </div>
@@ -99,7 +99,7 @@
 
 <main>
   <!-- catagories section start  -->
-  <section class="container my-5">
+  <section id="watch"class="container my-5">
     <div class="container overflow-hidden">
       <div class="row g-4">
         <div class="col-lg-4">
@@ -126,7 +126,7 @@
   <!-- catagories section emd  -->
 
   <!-- shoes section start  -->
-  <section class="container mt-5">
+  <section id="shoes" class="container my-5">
     <h1>Shoes</h1>
     <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 ">
       <div class="col">
@@ -173,7 +173,7 @@
   <!-- shoe section end  -->
 
   <!-- Backpack section start  -->
-  <section class="container mt-5">
+  <section id="bagpack" class="container my-5">
     <h1>Backpack</h1>
     <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 ">
       <div class="col">
@@ -217,12 +217,22 @@
       </div>
     </div>
   </section>
-  
-  <!-- Backpack section start  -->
+  <!-- Backpack section end  -->
+
+  <!-- Subscribe start -->
+  <section id ="subscribe"style="height: 300px;" class="container d-flex justify-content-center align-items-center bg-info">
+    <div>
+      <h1>LEA'T STAY IN TOUCH</h1>
+    <p>Get update on sales , spacial and more...</p>
+    <input type="text" placeholder="Your Email" id="">
+    <br>
+    <button class="btn btn-warning mt-2">Subscribe</button>
+    </div>
+  </section>
 </main>
 <footer>
-  <section class="container">
-
+  <section class="container mt-5 text-center">
+    <p><small>@2022.panda commerce. All rights reserve Sofia, Bulgaria.</small></p>
   </section>
 </footer>
 
